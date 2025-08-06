@@ -58,7 +58,7 @@ const OUTPUT_FOLDER = "./public/screenshots";
         console.error(`Component container not found for ${component}`);
       }
     } catch (error) {
-      console.error(`Error capturing screenshot for ${component}:`, error.message);
+      console.error(`Error capturing screenshot for test ${component}:`, error.message);
     }
   }
 
