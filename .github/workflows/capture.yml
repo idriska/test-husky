@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run capture script
-        run: node ./capture.js
+        run: node ./scripts/capture.js
 
       - name: Commit and push screenshots
         run: |
