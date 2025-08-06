@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit and push screenshots
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "idriska"
+          git config user.email "idriscumali@gmail.com"
 
           git add public/
           git commit -m "chore: add updated screenshots [skip ci]" || echo "No changes to commit"
