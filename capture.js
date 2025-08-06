@@ -26,7 +26,7 @@ const OUTPUT_FOLDER = "./public/screenshots";
 
   for (const component of COMPONENTS) {
     try {
-      const url = `http://localhost:3000/component-library/${component}`;
+      const url = `https://app.blinkpage.app/component-library/${component}`;
       await page.goto(url, { waitUntil: 'networkidle2' });
 
       // Wait for the component to load
